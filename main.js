@@ -553,35 +553,35 @@
 // }
 // numbers(4,[1,2,3,4,5])
 
-function numbers(array,number) {
-    for (var i = 0; i < array.length; i++) {
-        if (number==array[i]) {
-            array.splice(i,1)
-        }
-        else if (number!=array[i]){
-            array.push(number)
-        }
-    }    
-    console.log (array)
-}
-numbers ([1,2,3,4,5],1);
-
-// function numbers(number,array) {
-//     var max = 0
+// function numbers(array,number) {
 //     for (var i = 0; i < array.length; i++) {
-//         if (array[i]>max) {
-//             max = array[i]
-//         }   
-//     }        
-//     if (number>max){
-//             array.unshift(number)
-//     }
-//     else{
+//         if (number==array[i]) {
+//             array.splice(i,1)
+//         }
+//         else if (number!=array[i]){
 //             array.push(number)
-//     }
-//     console.log(array);
+//         }
+//     }    
+//     console.log (array)
 // }
-// numbers(1,[1,2,3,4,5])
+// numbers ([1,2,3,4,5],1);
+
+function numbers(number,array) {
+    var max = 0
+    for (var i = 0; i < array.length; i++) {
+        if (array[i]>max) {
+            max = array[i]
+        }   
+    }        
+    if (number>max){
+            array.unshift(number)
+    }
+    else{
+            array.push(number)
+    }
+    console.log(array);
+}
+numbers(1,[1,2,3,4,5])
 
 // function numbers(number,array) {
 //     if (number<array.length){
