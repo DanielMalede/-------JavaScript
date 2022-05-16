@@ -564,7 +564,7 @@ function numbers(array,number) {
     }    
     console.log (array)
 }
-numbers ([1,2,3,4,5],1); 
+numbers ([1,2,3,4,5],1);
 
 // function numbers(number,array) {
 //     var max = 0
