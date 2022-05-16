@@ -517,7 +517,7 @@
 // }
 // indexFun([6,2,3,4,5,5,5,4])
 
-// function numbers(array) {
+// function numbers(array){
 //     var max = 0
 //     for (var i = 0; i < array.length; i++) {
 //         if (array[i]%2==1) {
@@ -566,22 +566,22 @@
 // }
 // numbers ([1,2,3,4,5],1);
 
-function numbers(number,array) {
-    var max = 0
-    for (var i = 0; i < array.length; i++) {
-        if (array[i]>max) {
-            max = array[i]
-        }   
-    }        
-    if (number>max){
-            array.unshift(number)
-    }
-    else{
-            array.push(number)
-    }
-    console.log(array);
-}
-numbers(1,[1,2,3,4,5])
+// function numbers(number,array) {
+//     var max = 0
+//     for (var i = 0; i < array.length; i++) {
+//         if (array[i]>max) {
+//             max = array[i]
+//         }   
+//     }        
+//     if (number>max){
+//             array.unshift(number)
+//     }
+//     else{
+//             array.push(number)
+//     }
+//     console.log(array);
+// }
+// numbers(1,[1,2,3,4,5])
 
 // function numbers(number,array) {
 //     if (number<array.length){
