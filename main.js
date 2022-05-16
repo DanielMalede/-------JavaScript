@@ -529,7 +529,7 @@
 // }
 // numbers([1,7,2,3,4,5])
 
-// function addName(name,array) {
+// function addName(name,array){
 //     array.push(name)
 //     console.log(array);
     
