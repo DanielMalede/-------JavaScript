@@ -290,11 +290,11 @@
 // number()
 
 // var input = +prompt()
+// var sum = 1
 // var i = 0
 // while (i>=input) {
-//     var sum =  0
-//     sum = input*input
-//     i++
+//      sum =   sum * input
+//     input--
 // }
 // console.log(sum);
 
