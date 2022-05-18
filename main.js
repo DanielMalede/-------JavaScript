@@ -821,6 +821,38 @@
 // }
 // seperat()
 
+// function printString(putstring) {
+//     for (var i = 0; i < putstring.length; i++) {
+//     console.log(putstring[i]);        
+//     }
+// }
+// printString(["lama li"])
+
+// function newstring(mystring) {
+//     var newstring1 = ""
+//     for (var i = 0; i < mystring.length; i++) {
+//         newstring1 += mystring[i] +i
+//     }
+//     return console.log(newstring1); 
+// }
+// newstring("Hello world")
+
+// function mystring(thestring) {
+//     var thestring ="cdcdcdcdcdc"
+//     var newstring = " "
+//     for (var i = 0; i < thestring.length; i++) {
+//         if (i%2==1) {
+//             newstring += "2" + thestring[i] 
+//         }
+//     } 
+//     return console.log(newstring);
+// }
+// mystring()
+
+
+
+
+
 
 
 
