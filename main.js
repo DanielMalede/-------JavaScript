@@ -298,9 +298,9 @@
 // }
 // console.log(sum);
 
-/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
                                 // פונקציות
-/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
 // function printhello() {
 //     var i = 0
 //     while (i<3) {
@@ -410,8 +410,8 @@
 // console.log(component(2,4)); 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
-
-///////////////מערכים!!//////////////////////////////////////////////////////
+                                            // מערכים   
+//////////////////////////////////////////////////////////////////////////////
 
 // var array = [5,3,7,8,11]
 // var sum = 0
@@ -590,6 +590,237 @@
 //     console.log(array);
 // }
 // numbers(3,[1,2,3,4,5,6])
+
+
+/////////////////////////////////////////////////////////////////////////////
+                                //  תרגילים חדשים
+/////////////////////////////////////////////////////////////////////////////
+
+// function age(arrayage) {
+//     for (var i = 0; i < arrayage.length; i++) {
+//         if (arrayage[i]<20) {
+//             arrayage.splice([i],1);
+//             i--
+//         }
+//     }
+//     return arrayage
+// }
+// age([12,15,50,25,10,30,20,21])
+
+// function numbers(array) {
+//     for (var i = 0; i < array.length; i++) {
+//         array[i]= i +"."+ array[i]
+//     }
+//     return(array);
+// }
+// console.log(numbers([1,2,7,4,5])); 
+
+// function pirnteven(array) {
+//     for (var i = 0; i < array.length; i++) {
+//         if(array[i]%2==0)
+//         array[i]="even"
+//     }
+//     return array
+    
+// }
+// console.log(pirnteven([1,2,3,4,5]) ); 
+
+// function numbers() {
+//     var username1 = prompt()
+//     var username2 = prompt()
+//     console.log(username1,username2);
+// }
+// numbers()
+
+// function chackNumber13() {
+//     var usernumber1 = +prompt()
+//     var usernumber2 = +prompt()
+//     var usersumnumber = usernumber1+usernumber2
+//     if (usersumnumber>=13) {
+//         console.log("bar mitzva");
+//     }
+//     else if (usersumnumber>=12){
+//     console.log("bat mitzva");
+//     }
+//     else{console.log("kid");
+//     }
+// }
+// chackNumber13()
+
+// function checkAgeUser(name=prompt("enter your name"),lastname=prompt("enter your last name"),age=+prompt("enter your age") ) {
+//     for (var i = 0; i < age; i++) {
+//         if (age>18) {
+//             document.write(name,lastname);
+//         }    
+//         else{
+//             document.write(name,lastname); 
+//         }
+//     }            
+// }
+// checkAgeUser()
+
+// function printJavaScript() {
+//     for (var i = 0; i < 1000; i++) {
+//     console.log("JAVASCRIPT is not JAVA");        
+//     }   
+// }
+// printJavaScript()
+
+// function printUserName() {
+//     var username =prompt("enter yoyr name")
+//     var age =+prompt("enter your age")
+//     for (var i = 0; i < age; i++) {
+//         console.log(username);
+//     }
+// }
+// printUserName()
+
+// function nameEmailAge(params) {
+//     var name = prompt("enter your name")
+//     var email = prompt("enter your email")
+//     var age = +prompt("enter your age")
+//     console.log(name,email,age);
+//     var age1 = +prompt("enter another number")
+//     for (var i = 0; i < age1; i++) {
+//         if (age>18) {
+//             console.log(name,email,age); 
+//         }        
+//     }   
+// }
+// nameEmailAge()
+
+
+// function nubers() {
+//     var usernumber = +prompt("enter number")
+//     var username = prompt("enter your name")
+//     for ( i = 0; i < usernumber; i++) {
+//     if("daniel"==username){
+//     console.log("hi boss"+username);        
+//     }
+//     else{
+//         console.log("no entry");
+//     }
+//     }
+// }
+// console.log(nubers()); 
+
+// function doublingIterators() {
+//     var usernumber1 = +prompt("enter number")
+//     var usernumber2 = +prompt("enter number")
+//     for (var i = 0; i < usernumber1; i++) {
+//         for (var j = 0; j < usernumber2; j++) {
+//             console.log(i*j);
+//         }        
+//     }
+// }
+// console.log(doublingIterators()); 
+
+// function printnumberOfArray() {
+//     var array = [1,2,3,4,5]
+//     for (var i = 0; i < array.length; i++) {
+//         console.log(array[i]);        
+//     }
+// }
+// printOrgainzOfArray();
+
+// function printOrgainzOfArray() {
+//     var arraynames = ["n","i","m","a",'s']
+//     for (var i = 0; i < arraynames.length; i++) {
+//     console.log(arraynames[i]);        
+//     }
+// }
+// printOrgainzOfArray(); 
+
+// function printEvenOrgainz() {
+//     var array = [22,41,48,80,61,33,10,22]
+//     for (var i = 0; i < array.length; i++) {
+//         if (array[i]%2==0) {
+//             console.log(array[i]);
+//         }        
+//     }
+// }
+// printEvenOrgainz()
+
+// function usernamearray() {
+//     var array =[]
+//     for (var i = 0; i < 5; i++) {
+//             var username = prompt()
+//             array.unshift(username)         
+//     }
+//     console.log(array);
+// }
+// usernamearray()
+
+// function oddArray() {
+//     var array = []
+//     for (var i = 0; i < 7; i++) {
+//         var usernumber = +prompt()
+//         if (usernumber%2==1) {
+//              array.unshift(usernumber)
+//         }
+//     } console.log(array);
+// }
+// oddArray()
+
+// function onlyNumbersArray() {
+//     var array =[1,"Daniel",2,3,"Batel",4]
+//     for (var i = 0; i < array.length; i++) {
+//         if (array[i]*0!=0) {
+//             array[i]="not_number"
+//         }        
+//     }
+//     console.log(array); 
+// }
+// onlyNumbersArray()
+
+// function evenNumbersArray() {
+//     var array = []
+//     for (var i = 0; i < 10; i++) {
+//         var usernumber = +prompt()
+//         if (usernumber%2==0) {
+//             array.unshift(usernumber)
+//     }        
+//     }
+//    return array 
+// }
+// console.log(evenNumbersArray()); 
+
+// function rectangle() {
+//     var width = +prompt()
+//     var height = +prompt()
+//     var scoop = (width*2)+(height*2)
+//     var area = height*width
+//     console.log(area,scoop);
+// }
+// rectangle()
+
+// function chackOrder() {
+//     var num1 = +prompt()
+//     var num2 = +prompt()
+//     var num3 = +prompt()
+//     if ((num1>num2)&&(num2>num3)) {
+//         console.log("סדר יורד");   
+//     }
+//     else if(num1<num2&&num2<num3){
+//         console.log("סדר עולה");
+//     }
+//     else {
+//         console.log("אין סדר");
+        
+//     }
+// }
+// chackOrder()
+
+// function seperat(){
+//     var input =+prompt()
+//     var text = input.toString()
+
+//     for (var i = 0; i < text.length; i++) {
+//         console.log(parseInt(text.charAt(i)));
+//     }
+// }
+// seperat()
+
 
 
 
