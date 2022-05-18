@@ -647,8 +647,8 @@
 // }
 // chackNumber13()
 
-// function checkAgeUser(name=prompt("enter your name"),lastname=prompt("enter your last name"),age=+prompt("enter your age") ) {
-//     for (var i = 0; i < age; i++) {
+// function checkAgeUser(number=+prompt(),name=prompt("enter your name"),lastname=prompt("enter your last name"),age=+prompt("enter your age") ) {
+//     for (var i = 0; i < number; i++) {
 //         if (age>18) {
 //             document.write(name,lastname);
 //         }    
@@ -837,6 +837,21 @@
 // }
 // newstring("Hello world")
 
+
+// function evenIndexString(myString){
+//     var newString = ""
+//     for(i=0; i<myString.length; i++){
+//         if(i % 2 == 0){
+//             newString += "2"
+//         }
+//         else{
+//             newString += myString[i];
+//         }
+//     }
+//     return newString
+// }
+
+
 // function mystring(thestring) {
 //     var thestring ="cdcdcdcdcdc"
 //     var newstring = " "
@@ -848,6 +863,58 @@
 //     return console.log(newstring);
 // }
 // mystring()
+
+// function printHelloOrBye() {
+//     var name = prompt()
+//     if (name[0]=="A") {
+//         console.log("hello");
+//     }
+//     else{
+//         console.log("bye");
+//     }  
+// }
+// printHelloOrBye()
+
+// function printYesOrNo() {
+//     var lastname = prompt("enter last name")
+//     if(lastname[lastname.length-1]=="E"){
+//         console.log("yes");
+//     }
+//     else{
+//         console.log("no");
+//     }
+// }
+// printYesOrNo()
+
+// function getUpperCase(array) {
+//     return array.toUpperCase();
+// }
+// console.log(getUpperCase("xcvbnm"));
+
+// function convertString(myString) {
+//     var myarray = []
+//     for (var i = 0; i < myString.length; i++) {
+//         if (char[i]!=",") {
+//             myarray+=char[i]  
+//         }        
+//     }
+//     return myarray
+// }
+// console.log(convertString("1,22,33,44"));
+
+// function chackLength(mystring) {
+//     for (var i = 0; i < mystring.length; i++) {
+//         mystring.match
+//     }
+    
+// }
+
+
+
+
+
+
+
 
 
 
