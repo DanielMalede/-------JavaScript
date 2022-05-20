@@ -434,14 +434,14 @@
 // }
 // numbers(2,[2,3,1,1,2])
 
-// function numbers(num=[]) {
-//     for (var i = 0; i < num.length; i++) {        
-//     if(num[i]%2==0){
-//          console.log(num[i]);
-//     }
-//     }
-// }
-// numbers([1,2,3,4,5,6,8,10])
+function numbers(num=[]) {
+    for (var i = 0; i < num.length; i++) {        
+    if(num[i]%2==0){
+         num=num[i];
+    }
+    }
+}
+numbers([1,2,3,4,5,6,8,10])
 
 // function copyNumbers(num=[],num1=[]) {
 //     if (num.length==num1.length){
@@ -774,9 +774,9 @@
 // onlyNumbersArray()
 
 // function evenNumbersArray() {
-//     var array = []
+//     var array = []        
+//     var usernumber = +prompt()
 //     for (var i = 0; i < 10; i++) {
-//         var usernumber = +prompt()
 //         if (usernumber%2==0) {
 //             array.unshift(usernumber)
 //     }        
@@ -891,6 +891,8 @@
 // }
 // console.log(getUpperCase("xcvbnm"));
 
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
 // function convertString(myString) {
 //     var myarray = []
 //     for (var i = 0; i < myString.length; i++) {
@@ -909,10 +911,364 @@
     
 // }
 
+//////שאלה 3 של STRING צריך לעשות !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
 
 
 
 
+
+
+
+
+
+
+// function chackLongOrShort(mystring) {
+//     if (mystring.length>5) {
+//         console.log("Long");
+//     }
+//     else{
+//         console.log("Short");
+//     }    
+// }
+// chackLongOrShort("abcdef")
+
+// function returnA(mystring) {
+//     for (var i = 0; i < mystring.length; i++) {
+//         if (mystring[i]=="a") {
+//             return mystring.indexOf("a")   
+//         }
+//     }
+//             return "Not Found"
+// }
+// console.log(returnA("bgjhask"));
+
+// function chackTrueOrFalse(mystring) {
+//     for (var i = 0; i < mystring.length; i++) {
+//         if (mystring[i]=="r") {
+//             return true
+//         }   
+//     }        
+//     return false     
+// }
+// console.log(chackTrueOrFalse("cvrbjihgvbjk")); 
+
+// function chackTrueOrFalse(mystring,char) {
+//     for (var i = 0; i < mystring.length; i++) {
+//         if (mystring[i]==char) {
+//             return true
+//         }        
+//     }    
+//     return false
+// }
+// console.log(chackTrueOrFalse("abcdeifg","i"));
+
+// function chackIfCharInMystring(mystring,char) {
+//     for (var i = 0; i < mystring.length; i++) {
+//         if (mystring[i]==char) {
+//             return mystring.lastIndexOf(mystring[i])
+//         }           
+//     }
+//     return "char Not In Mystring"
+// }
+// console.log(chackIfCharInMystring("fgvhjk","j"));
+
+// function ReturnSay(mystring) {
+//     return mystring.substring(0,3)
+// }
+// console.log(ReturnSay("sayonara"));
+
+// function returnCharOToLast(mystring) {
+//     return mystring.substring(0,)
+// }
+// console.log(returnCharOToLast("sayonara"));
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+// function printKeyValue(mystring) {
+//     var startvalue = mystring[0]
+//     var endvalue = ""
+//     var Keyvlue;
+//     for (var i = 0; i < mystring.length; i++) {
+//         if (mystring[i]==startvalue || mystring[i]==" ") {
+//             startvalue = mystring[i]
+//         }
+//         if (mystring[i]==":") {
+//             endvalue = [i]
+            
+//         }
+//          Keyvlue = mystring.substring(startvalue,endvalue)
+//     }    
+//     return Keyvlue
+// }
+// console.log(printKeyValue("city:jerusalem name:daniel gender:male"));
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+// function printNameOrLastname(mystring) {
+//     console.log(mystring.length);
+//     var spacecount = ""
+//     for (var i = 0; i < array.length; i++) {
+//         if (mystring[i]==" ") {
+
+            
+//         }        
+//     }
+    
+// }
+
+
+
+
+
+
+// function getKeyValue2(myStr, key){
+//     var startValue = 0;
+//     var endValue ;
+//     for(i=0; i<myStr.length; i++){
+//         if(myStr[i] == ":"){
+//             startValue = i+1
+//         }
+//         if(myStr[i] == ","){
+//             endValue = i            
+//             console.log(myStr.substring(startValue,endValue))
+//         }
+//         if(i == myStr.length-1){
+//             console.log(myStr.substring(startValue,myStr.length))
+            
+//         }
+//     }
+// }
+// getKeyValue2("name:nathan,family:krasney,city:haifa" ,"family")
+
+
+
+// function double(num1) {
+//     var new1 =[]
+//     for (var i = 0; i < num1.length; i++) {
+//         if (num1[i]%2==0) {
+//             new1 += num1[i]
+//         }   
+    
+//     }
+//     console.log(new1);
+// }
+// double([1,2,3,4,5,6,7]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function checkHowManyNames(someName){
+//     var spaceCounter = 0
+//     var nameArr = ""
+//     var endStr =""
+
+
+//     for(i=0; i<someName.length; i++){
+//         if(someName[i]==(" ")){
+//             spaceCounter++
+//             endStr = i
+//         }
+//     }
+
+//     if(spaceCounter<1){
+//         someName.toLowerCase()
+//         return someName.charAt(0).toUpperCase() + someName.slice(1);
+//     }
+//     else if(spaceCounter==1){
+//         return someName.charAt(0).toUpperCase()+someName.substr(1,endStr) + someName.charAt().toUpperCase()+someName.substring(endStr+2,someName.length)
+//     }
+//     else if(spaceCounter>=2){
+//         console.log(someName)
+//     }
+// }
+
+// console.log(checkHowManyNames("batel"));
+// console.log(checkHowManyNames("daniel malede"));
+// console.log(checkHowManyNames("batel hailo daniel"));
+
+// function checkHowManyNames(someName){
+//     var spaceCounter = 0
+//     var nameArr = []
+//     var endStr =""
+
+
+//     for(i=0; i<someName.length; i++){
+//         if(someName[i]==(" ")){
+//             spaceCounter++;
+//             endStr = i;
+//         }
+//     }
+
+//     if(spaceCounter<1){
+//         someName.toLowerCase()
+//         return someName.charAt(0).toUpperCase() + someName.slice(1);
+//     }
+//     else if(spaceCounter==1){
+//         var frs = nameArr.push(someName.substring(0,endStr));
+//         var sec = nameArr.push(someName.substring(endStr+1,someName.length));
+//         return nameArr        
+//     }
+//     else if(spaceCounter>=2){
+//         console.log(someName);
+//     }
+
+// }
+// console.log(checkHowManyNames("ncso kjsd"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function printNameLastname(name) {
+//     console.log(name.length);
+//     for (var i = 0; i < name.length; i++) {
+//         if (name[i]==" " || [i]==name.length-1) {
+//             return  console.log(name[0].toUpperCase()+name.substring(1,)); 
+//         }
+        
+        
+//     }
+    
+// }
+// printNameLastname("daniel ")
 
 
 
