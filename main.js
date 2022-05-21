@@ -886,13 +886,16 @@ numbers([1,2,3,4,5,6,8,10])
 // }
 // printYesOrNo()
 
+
+
+////////////////////////////////////////////////////////////////////////
+                                    //    STRING
+////////////////////////////////////////////////////////////////////////
 // function getUpperCase(array) {
 //     return array.toUpperCase();
 // }
 // console.log(getUpperCase("xcvbnm"));
 
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
 // function convertString(myString) {
 //     var myarray = []
 //     for (var i = 0; i < myString.length; i++) {
@@ -914,16 +917,10 @@ numbers([1,2,3,4,5,6,8,10])
 //////שאלה 3 של STRING צריך לעשות !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ////////////////////////////////////////////////////////////////////
+
+
+
 ///////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
 
 // function chackLongOrShort(mystring) {
 //     if (mystring.length>5) {
@@ -981,9 +978,49 @@ numbers([1,2,3,4,5,6,8,10])
 // console.log(ReturnSay("sayonara"));
 
 // function returnCharOToLast(mystring) {
-//     return mystring.substring(0,)
+//     return mystring.substring(3,)
 // }
 // console.log(returnCharOToLast("sayonara"));
+
+// function chackindex(mystring,index) {
+//     if (index>mystring.length) {
+//         return "index is Big"
+//     }
+//     if (index==mystring.length) {
+//         return mystring.substr(2,mystring.length)
+//     }
+//     return "not big or equal"
+// }
+// console.log(chackindex("daniel",6));
+
+// function chackIndex(myString,index) {
+//     if (index>myString.length) {
+//         return "index is to Big"
+//     }
+//     else if (index==myString.length) {
+//         return myString.substring(index,3)
+//     }
+//     else{
+//         return "index is to short"        
+
+//     }
+// }
+// console.log(chackIndex("daniel Malede",13));
+
+// function returnByNumber(myString,num1=parseInt(),num2=parseInt()) {
+//     return myString.substr(num1,num2)
+// }
+// console.log(returnByNumber("daniel",1,4));
+
+function returntreechar() {
+    word1 = "sayonara"
+    return word1.substr(0,2)
+    
+}
+
+
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -1053,17 +1090,7 @@ numbers([1,2,3,4,5,6,8,10])
 
 
 
-// function double(num1) {
-//     var new1 =[]
-//     for (var i = 0; i < num1.length; i++) {
-//         if (num1[i]%2==0) {
-//             new1 += num1[i]
-//         }   
-    
-//     }
-//     console.log(new1);
-// }
-// double([1,2,3,4,5,6,7]);
+// 
 
 
 
