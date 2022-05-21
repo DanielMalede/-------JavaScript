@@ -434,14 +434,14 @@
 // }
 // numbers(2,[2,3,1,1,2])
 
-function numbers(num=[]) {
-    for (var i = 0; i < num.length; i++) {        
-    if(num[i]%2==0){
-         num=num[i];
-    }
-    }
-}
-numbers([1,2,3,4,5,6,8,10])
+// function numbers(num=[]) {
+//     for (var i = 0; i < num.length; i++) {        
+//     if(num[i]%2==0){
+//          num=num[i];
+//     }
+//     }
+// }
+// numbers([1,2,3,4,5,6,8,10])
 
 // function copyNumbers(num=[],num1=[]) {
 //     if (num.length==num1.length){
