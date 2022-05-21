@@ -925,10 +925,28 @@ numbers([1,2,3,4,5,6,8,10])
 // }
 // console.log(printKeyValue("city:jerusalem name:daniel gender:male"));
 
+// function getKeyValue2(myStr, key){
+//     var startValue = 0;
+//     var endValue ;
+//     for(i=0; i<myStr.length; i++){
+//         if(myStr[i] == ":"){
+//             startValue = i+1
+//         }
+//         if(myStr[i] == ","){
+//             endValue = i            
+//             console.log(myStr.substring(startValue,endValue))
+//         }
+//         if(i == myStr.length-1){
+//             console.log(myStr.substring(startValue,myStr.length))
+            
+//         }
+//     }
+// }
+// getKeyValue2("name:nathan,family:krasney,city:haifa" ,"family")
 
 ////////////////////////////////////////////////////////////////////
 
-                            //  question num 456
+                            //  question num 5,6
 
 ///////////////////////////////////////////////////////////////////
 
@@ -1177,289 +1195,3 @@ function chackstrings(firstName=prompt(),lastName=prompt()) {
 //     console.log("chart is not in function name");
 // }
 // console.log(chackIfCharInFunctionName("daniel","x"));
-
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////
-// function printKeyValue(mystring) {
-//     var startvalue = mystring[0]
-//     var endvalue = ""
-//     var Keyvlue;
-//     for (var i = 0; i < mystring.length; i++) {
-//         if (mystring[i]==startvalue || mystring[i]==" ") {
-//             startvalue = mystring[i]
-//         }
-//         if (mystring[i]==":") {
-//             endvalue = [i]
-            
-//         }
-//          Keyvlue = mystring.substring(startvalue,endvalue)
-//     }    
-//     return Keyvlue
-// }
-// console.log(printKeyValue("city:jerusalem name:daniel gender:male"));
-//////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////
-
-// function printNameOrLastname(mystring) {
-//     console.log(mystring.length);
-//     var spacecount = ""
-//     for (var i = 0; i < array.length; i++) {
-//         if (mystring[i]==" ") {
-
-            
-//         }        
-//     }
-    
-// }
-
-// function getKeyValue2(myStr, key){
-//     var startValue = 0;
-//     var endValue ;
-//     for(i=0; i<myStr.length; i++){
-//         if(myStr[i] == ":"){
-//             startValue = i+1
-//         }
-//         if(myStr[i] == ","){
-//             endValue = i            
-//             console.log(myStr.substring(startValue,endValue))
-//         }
-//         if(i == myStr.length-1){
-//             console.log(myStr.substring(startValue,myStr.length))
-            
-//         }
-//     }
-// }
-// getKeyValue2("name:nathan,family:krasney,city:haifa" ,"family")
-
-
-
-// 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function checkHowManyNames(someName){
-//     var spaceCounter = 0
-//     var nameArr = ""
-//     var endStr =""
-
-
-//     for(i=0; i<someName.length; i++){
-//         if(someName[i]==(" ")){
-//             spaceCounter++
-//             endStr = i
-//         }
-//     }
-
-//     if(spaceCounter<1){
-//         someName.toLowerCase()
-//         return someName.charAt(0).toUpperCase() + someName.slice(1);
-//     }
-//     else if(spaceCounter==1){
-//         return someName.charAt(0).toUpperCase()+someName.substr(1,endStr) + someName.charAt().toUpperCase()+someName.substring(endStr+2,someName.length)
-//     }
-//     else if(spaceCounter>=2){
-//         console.log(someName)
-//     }
-// }
-
-// console.log(checkHowManyNames("batel"));
-// console.log(checkHowManyNames("daniel malede"));
-// console.log(checkHowManyNames("batel hailo daniel"));
-
-// function checkHowManyNames(someName){
-//     var spaceCounter = 0
-//     var nameArr = []
-//     var endStr =""
-
-
-//     for(i=0; i<someName.length; i++){
-//         if(someName[i]==(" ")){
-//             spaceCounter++;
-//             endStr = i;
-//         }
-//     }
-
-//     if(spaceCounter<1){
-//         someName.toLowerCase()
-//         return someName.charAt(0).toUpperCase() + someName.slice(1);
-//     }
-//     else if(spaceCounter==1){
-//         var frs = nameArr.push(someName.substring(0,endStr));
-//         var sec = nameArr.push(someName.substring(endStr+1,someName.length));
-//         return nameArr        
-//     }
-//     else if(spaceCounter>=2){
-//         console.log(someName);
-//     }
-
-// }
-// console.log(checkHowManyNames("ncso kjsd"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function printNameLastname(name) {
-//     console.log(name.length);
-//     for (var i = 0; i < name.length; i++) {
-//         if (name[i]==" " || [i]==name.length-1) {
-//             return  console.log(name[0].toUpperCase()+name.substring(1,)); 
-//         }
-        
-        
-//     }
-    
-// }
-// printNameLastname("daniel ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
