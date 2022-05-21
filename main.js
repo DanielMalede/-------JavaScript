@@ -907,18 +907,28 @@ numbers([1,2,3,4,5,6,8,10])
 // }
 // console.log(convertString("1,22,33,44"));
 
-// function chackLength(mystring) {
+// function printKeyValue(mystring) {
+//     var startvalue = mystring[0]
+//     var endvalue = ""
+//     var Keyvlue;
 //     for (var i = 0; i < mystring.length; i++) {
-//         mystring.match
-//     }
-    
+//         if (mystring[i]==startvalue || mystring[i]==" ") {
+//             startvalue = mystring[i]
+//         }
+//         if (mystring[i]==":") {
+//             endvalue = [i]
+            
+//         }
+//          Keyvlue = mystring.substring(startvalue,endvalue)
+//     }    
+//     return Keyvlue
 // }
+// console.log(printKeyValue("city:jerusalem name:daniel gender:male"));
 
-//////שאלה 3 של STRING צריך לעשות !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ////////////////////////////////////////////////////////////////////
 
-
+                            //  question num 456
 
 ///////////////////////////////////////////////////////////////////
 
@@ -1095,10 +1105,85 @@ function chackstrings(firstName=prompt(),lastName=prompt()) {
 // chackstrings()
 ///////////////////////////////////////////////////////////////////////////////////
 
+// function chackIfSrtrngIsLongThenFive(myString) {
+//     if (myString.length>5) {
+//         return "long"
+//     }
+//     else{
+//         return "short"
+//     }
+// }
+// console.log(chackIfSrtrngIsLongThenFive("manishmaa"));
+
+// function chackState(myString) {
+//     if (myString.length<3) {
+//         return "yes"
+//     }
+//     else{
+//         return "no"
+//     }
+// }
+// console.log(chackState("eti"));
+
+// function chackIfStringIsLongThenSix(myString,chart) {
+//     if (myString.length>6) {
+//         return myString
+//     }
+//     else{
+//         return myString[chart]
+//     }
+// }
+// console.log(chackIfStringIsLongThenSix("daniel",5-1));
+
+// function chackIfStringInChart(myString,chart) {
+//     for (var i = 0; i < myString.length; i++) {
+//         if (myString[i]==chart) {
+//             return i
+//         }        
+//     }
+//     return myString
+// }
+// console.log(chackIfStringInChart("daniel","g"));
+
+// function chack(firstName,lastName) {
+//     return firstName[0]+"."+" "+lastName.toUpperCase()
+// }
+// console.log(chack("daniel","malede"));
+
+// function printLastName(lastName1,lastName2) {
+//     if (lastName1.length>lastName2.length) {
+//         return lastName1
+//     }
+//     else{
+//         console.log(lastName2);
+//     } 
+//     // if (lastName2.length>lastName1.length) {
+//     //     return lastName2
+//     // }
+//     // else{
+//     //     console.log(lastName1.toLowerCase()); 
+//     // } 
+// console.log(printLastName("Brahano","Malesfsade"));
 
 
 
-//////////////////////////////////////////////////////////////////////////////////
+// function chackIfCharInFunctionName(myString,chart) {
+//     var functionName = "chackIfCharInFunctionName"
+//     for (var i = 0; i < functionName.length; i++) {
+//         if (functionName[i]==chart) {
+//             return myString
+//         }        
+//     }
+//     console.log("chart is not in function name");
+// }
+// console.log(chackIfCharInFunctionName("daniel","x"));
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
 // function printKeyValue(mystring) {
 //     var startvalue = mystring[0]
@@ -1120,13 +1205,6 @@ function chackstrings(firstName=prompt(),lastName=prompt()) {
 //////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
 
-
-
-
-
-
-
-
 // function printNameOrLastname(mystring) {
 //     console.log(mystring.length);
 //     var spacecount = ""
@@ -1138,11 +1216,6 @@ function chackstrings(firstName=prompt(),lastName=prompt()) {
 //     }
     
 // }
-
-
-
-
-
 
 // function getKeyValue2(myStr, key){
 //     var startValue = 0;
