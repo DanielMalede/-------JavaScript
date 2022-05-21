@@ -1012,13 +1012,88 @@ numbers([1,2,3,4,5,6,8,10])
 // }
 // console.log(returnByNumber("daniel",1,4));
 
-function returntreechar() {
-    word1 = "sayonara"
-    return word1.substr(0,2)
+// function returntreechar(myString) {
+//     return myString.substring(0,3)
     
+// }
+// console.log(returntreechar("sayonara"));
+
+// function returnYONA(mystring) {
+//     return mystring.substring(2,6)
+// }
+// console.log(returnYONA("sayonara"));
+
+//////////////////////////////////////////////////////////////////////////
+// function returnOnara() {
+//     sayo = "sayonara"
+//     return sayo.substring(0,3)
+// }
+//////////////////////////////////////////////////////////////////////////
+
+// function printFullName(fullName=prompt()) {
+//     var spacecount = 0
+//     endname = ""
+//     for (var i = 0; i < fullName.length; i++) {
+//         if (fullName[i]==" ") {
+//             spacecount++
+//             endname = i
+//             if (spacecount>=1) {
+//                 console.log("there is space in text");      
+//             }
+//         }   
+//     }
+//     console.log(fullName.length); 
+//     console.log(fullName.substr(0,endname));
+//     console.log(fullName.substr(endname,fullName.length));
+// }
+// // printFullName();
+
+// function chackSrings(myString1,myString2) {
+//     if (myString1.toLowerCase()==myString2.toLowerCase()) {
+//         return "yes the two string are equal"  
+//     }
+//     else{
+//         return "no , the two string are not equal"
+//     }
+// }
+// console.log(chackSrings("daniel","Daniel"));
+
+// function chackstring(myString1,myString2) {
+//     if (myString1.toUpperCase()==myString2.toUpperCase()) {
+//         return "yes the two string are equal"  
+//     }
+//     else{
+//         return "no , the two string are not equal"
+//     }
+// }
+// console.log(chackstring("daniel","Daniel"));
+
+// function printLongestName(name=prompt(),lastname=prompt()) {
+//     if (name.length>lastname.length) {
+//         console.log(name);
+//     }
+//     else{
+//         console.log(lastname);
+//     }
+// }
+// printLongestName()
+
+/////////////////////////////////////////////////////////////////////////////
+function chackstrings(firstName=prompt(),lastName=prompt()) {
+    // for ( i = 0; i < firstName.length; i++) {
+    //     if (firstName[i]=="a") {
+    //         console.log("Yes 'a' is in FirstName");
+    //     }      
+    // }       
+        if (lastName.indexOf("api")==0) {
+            console.log("Yes api in last Name");        
+        }
+        else{
+            console.log("No api is Not in last Name");         
+        }
 }
-
-
+// chackstrings()
+///////////////////////////////////////////////////////////////////////////////////
 
 
 
