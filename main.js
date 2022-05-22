@@ -896,16 +896,24 @@
 // }
 // console.log(getUpperCase("xcvbnm"));
 
+
+
+// ///////////////////////////////////////////////////////////////
+// ///////////////////////////////////////////////////////////////
 // function convertString(myString) {
 //     var myarray = []
 //     for (var i = 0; i < myString.length; i++) {
-//         if (char[i]!=",") {
-//             myarray+=char[i]  
+//         if (myString[i]!=",") {
+//             myarray.unshift(myString[i])  
 //         }        
 //     }
 //     return myarray
 // }
 // console.log(convertString("1,22,33,44"));
+// ///////////////////////////////////////////////////////////////
+// ///////////////////////////////////////////////////////////////
+
+
 
 // function printKeyValue(mystring) {
 //     var startvalue = mystring[0]
@@ -1035,10 +1043,10 @@
 // }
 // console.log(chackIndex("daniel Malede",2));
 
-function returnByNumber(myString,num1=parseInt(),num2=parseInt()) {
-    return myString.substr(num1,num2)
-}
-console.log(returnByNumber("daniel",1,4));
+// function returnByNumber(myString,num1=parseInt(),num2=parseInt()) {
+//     return myString.substr(num1,num2)
+// }
+// console.log(returnByNumber("daniel",1,4));
 
 // function returntreechar(myString) {
 //     return myString.substring(0,3)
@@ -1107,19 +1115,19 @@ console.log(returnByNumber("daniel",1,4));
 // printLongestName()
 
 /////////////////////////////////////////////////////////////////////////////
-function chackstrings(firstName=prompt(),lastName=prompt()) {
-    // for ( i = 0; i < firstName.length; i++) {
-    //     if (firstName[i]=="a") {
-    //         console.log("Yes 'a' is in FirstName");
-    //     }      
-    // }       
-        if (lastName.indexOf("api")==0) {
-            console.log("Yes api in last Name");        
-        }
-        else{
-            console.log("No api is Not in last Name");         
-        }
-}
+// function chackstrings(firstName=prompt(),lastName=prompt()) {
+//     // for ( i = 0; i < firstName.length; i++) {
+//     //     if (firstName[i]=="a") {
+//     //         console.log("Yes 'a' is in FirstName");
+//     //     }      
+//     // }       
+//         if (lastName.indexOf("api")==0) {
+//             console.log("Yes api in last Name");        
+//         }
+//         else{
+//             console.log("No api is Not in last Name");         
+//         }
+// }
 // chackstrings()
 // chackstrings()
 ///////////////////////////////////////////////////////////////////////////////////
