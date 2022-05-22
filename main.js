@@ -1033,12 +1033,12 @@
 
 //     }
 // }
-// console.log(chackIndex("daniel Malede",13));
+// console.log(chackIndex("daniel Malede",2));
 
-// function returnByNumber(myString,num1=parseInt(),num2=parseInt()) {
-//     return myString.substr(num1,num2)
-// }
-// console.log(returnByNumber("daniel",1,4));
+function returnByNumber(myString,num1=parseInt(),num2=parseInt()) {
+    return myString.substr(num1,num2)
+}
+console.log(returnByNumber("daniel",1,4));
 
 // function returntreechar(myString) {
 //     return myString.substring(0,3)
@@ -1120,6 +1120,7 @@ function chackstrings(firstName=prompt(),lastName=prompt()) {
             console.log("No api is Not in last Name");         
         }
 }
+// chackstrings()
 // chackstrings()
 ///////////////////////////////////////////////////////////////////////////////////
 
